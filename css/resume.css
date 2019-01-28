@@ -84,6 +84,7 @@ p.lead {
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
+  color: white;
   font-weight: 800;
   letter-spacing: 0.05rem;
   text-transform: uppercase;
@@ -145,10 +146,8 @@ p.lead {
     display: block;
   }
   #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
-    display: block;
-  }
-  .nav-link a {
     color: white;
+    display: block;
   }
 }
 
