@@ -84,7 +84,6 @@ p.lead {
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
-  color: white;
   font-weight: 800;
   letter-spacing: 0.05rem;
   text-transform: uppercase;
@@ -146,7 +145,6 @@ p.lead {
     display: block;
   }
   #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
-    color: white;
     display: block;
   }
 }
@@ -178,7 +176,7 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: #BD5D38 !important;
+  background-color: black !important;
 }
 
 .text-primary {
