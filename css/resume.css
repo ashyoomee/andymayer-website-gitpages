@@ -90,7 +90,6 @@ p.lead {
 }
 
 #sideNav .navbar-toggler:focus {
-  color: white;
   outline-color: #d48a6e;
 }
 
@@ -147,6 +146,9 @@ p.lead {
   }
   #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
     display: block;
+  }
+  #sideNav a {
+    color: white;
   }
 }
 
