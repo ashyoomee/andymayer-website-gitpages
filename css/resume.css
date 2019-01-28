@@ -90,6 +90,7 @@ p.lead {
 }
 
 #sideNav .navbar-toggler:focus {
+  color: white;
   outline-color: #d48a6e;
 }
 
