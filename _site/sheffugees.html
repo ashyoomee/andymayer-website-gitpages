@@ -100,21 +100,16 @@ page: post
         <a class="lightbx" href="#image">
             <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/placeholder1.png" alt="">
           </a> 
-         <div class="lightbox-target" id="image">
-            <img src="img/placeholder1.png"/>
-            <a class="lightbox-close" href=""></a>
-         </div>
 
       <hr class="m-0">
 
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="Sheffugees">
         <div class="my-auto">
 
           <div class="resume-item d-flex flex-column flex-md-row mb-5" style="float:left">
             <div class="resume-content mr-auto">
-              <a href="park-hill.html"><img class="img-fluid img-profile rounded-circle mx-auto mb-2 placeholder" src="img/placeholder.png" alt=""></a>
               <h1 class="mb-0">My blog posts</h1>
-              <ul class="list-inline dev-icons resumeText">
+              <ul class="list-inline dev-icons">
                 <li class="list-inline-item">
                   <i class="fab">
                     Four lessons from running hack days for social good                </i></li>
@@ -123,26 +118,38 @@ page: post
                 </li>
               </ul>            </div>
           </div>
-
-
-<br>
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <img class="img-fluid img-profile rounded-circle mx-auto mb-2 placeholder" src="img/placeholder.png" alt="">
-              <h3 class="mb-0">Sheffugees</h3>
-              <p>In 2016 I organised and recruited volunteers for a series of hack days to develop a digital product to help local refugee organisations. Now in use by 20 organisations across the city, 3,000 people are benefitting, including 900 destitute asylum seekers who have been refused assylum.</p>
-            </div>
-          </div>
-
-              <div class="resume-item d-flex flex-column flex-md-row">
-                <div class="resume-content mr-auto">
-                  <img class="img-fluid img-profile rounded-circle mx-auto mb-2 placeholder" src="img/placeholder.png" alt="">
-                  <h3 class="mb-0">Artificial Intelligence for social good</h3>
-                  <p>In 2017 I followed a series of online courses from MIT and Stanford on Machine Learning. This led me to design and develop an AI-powered chatbot for mental health support in Sheffield.</p>
-
-
-                                      <hr class="m-0">
   </section>
+
+  <hr class="m-0">
+
+  <link href="css/sheffGallery.css" rel="stylesheet">
+
+
+<div class="m-p-g">
+	<div class="m-p-g__thumbs" data-google-image-layout data-max-height="350">
+		<img src="http://unsplash.it/600/400?image=940" data-full="http://unsplash.it/1200/800?image=940" class="m-p-g__thumbs-img" />
+		<img src="http://unsplash.it/640/450?image=906" data-full="http://unsplash.it/1280/900?image=906" class="m-p-g__thumbs-img" />
+		<img src="http://unsplash.it/550/420?image=885" data-full="http://unsplash.it/1100/840?image=885" class="m-p-g__thumbs-img" />
+		<img src="http://unsplash.it/650/450?image=823" data-full="http://unsplash.it/1300/900?image=823" class="m-p-g__thumbs-img" />
+		<img src="http://unsplash.it/600/350?image=815" data-full="http://unsplash.it/1200/700?image=815" class="m-p-g__thumbs-img" />
+		<img src="http://unsplash.it/560/500?image=677" data-full="http://unsplash.it/1120/1000?image=677" class="m-p-g__thumbs-img" />
+		<img src="http://unsplash.it/670/410?image=401" data-full="http://unsplash.it/1340/820?image=401" class="m-p-g__thumbs-img" />
+		<img src="http://unsplash.it/620/340?image=623" data-full="http://unsplash.it/1240/680?image=623" class="m-p-g__thumbs-img" />
+		<img src="http://unsplash.it/790/390?image=339" data-full="http://unsplash.it/1580/780?image=339" class="m-p-g__thumbs-img" />
+	</div>
+
+	<div class="m-p-g__fullscreen"></div>
+</div>
+
+<script>
+	var elem = document.querySelector('.m-p-g');
+
+	document.addEventListener('DOMContentLoaded', function() {
+		var gallery = new MaterialPhotoGallery(elem);
+	});
+</script>
+
+  
         <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
